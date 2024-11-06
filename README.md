@@ -49,7 +49,7 @@ The clustering process identified four primary customer segments:
 
 ### Stability Analysis
 - **Model Maintenance**: Based on ARI scores, we recommend re-segmentation every 30 days to ensure accurate and actionable segmentation results.
-  ![stability](images/stability.jpg) <!-- Placeholder image for context -->
+  ![Model Stability Over Time](images/stability.png)
 
 ## 🚀 **Potential Improvements**
 
