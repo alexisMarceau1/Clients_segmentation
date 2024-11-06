@@ -48,8 +48,11 @@ The clustering process identified four primary customer segments:
 - **Label 3**: Least satisfied customers, typically with lower review scores and infrequent purchases.
 
 ### Stability Analysis
+
 - **Model Maintenance**: Based on ARI scores, we recommend re-segmentation every 30 days to ensure accurate and actionable segmentation results.
+
   ![Model Stability Over Time](images/stability.png)
+
 
 ## 🚀 **Potential Improvements**
 
