@@ -1,4 +1,4 @@
-# Clients_segmentation
+# Clients segmentation
 
 Olist (a Brazilian e-commerce site) requested a customer segmentation to support its e-commerce teams in daily communication campaigns. The goal is to understand the different types of users through their behavior and personal data.
 
