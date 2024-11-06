@@ -1,28 +1,62 @@
-# Customer Segmentation Project
+# 🛍️ Customer Segmentation for E-commerce
 
-## Project Overview
+![E-commerce](images/ecommerce.jpg) <!-- Placeholder image for context -->
 
-This project was developed to provide the e-commerce team of Olist, a Brazilian online marketplace, with a robust customer segmentation model. The goal was to segment customers based on their purchasing behaviors and personal data to help the marketing team tailor communication campaigns more effectively. This segmentation analysis also includes a recommended maintenance schedule to ensure the model's accuracy over time.
+## 🏢 **Project Overview**
 
-## Business Context
+This project aims to provide a **robust customer segmentation model** for the marketing team of an online marketplace. The segmentation model enables targeted communication by identifying distinct customer groups based on purchasing behavior and satisfaction, ultimately improving marketing efficiency and customer retention.
 
-Olist's e-commerce team requires actionable customer segments to inform daily communication strategies and campaigns. Our objective was to analyze customer data to identify distinct user types and deliver a comprehensive, data-driven segmentation model. This model is optimized for daily marketing use and includes maintenance insights to keep segments up-to-date.
+## 🎯 **Objectives**
 
-## Key Insights
+- **Primary Goal**: Segment customers to identify actionable customer groups for targeted marketing.
+- **Secondary Goal**: Determine the optimal frequency of model maintenance by analyzing segment stability over time.
 
-After thorough analysis and model testing, the final segmentation defines four customer labels with the following characteristics:
+## 📊 **Data Sources**
 
-- **Label 0**: Satisfied but inactive customers who last ordered a long time ago.
-- **Label 1**: Highly engaged, satisfied customers who frequently interact with the platform.
-- **Label 2**: Regular but moderately engaged customers with average satisfaction.
-- **Label 3**: Least satisfied customers, typically with lower review scores.
+- **Main Dataset**: [data](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- **Key Variables**: `total_spend`, `days_last_order`, `nb_orders`, `mean_review_score`
 
-The segmentation showed that while recency and satisfaction were well-distinguished, total spend did not provide significant separation across clusters, likely due to most customers making only a single purchase.
+## **Project Structure**
 
-## Model Stability
+This project is organized into several main steps:
 
-To ensure the segments remain accurate over time, a stability analysis was performed. Results indicate that the model should be retrained every 30 days to maintain a high Adjusted Rand Index (ARI) above 0.8, ensuring stable and reliable segmentation.
+1. **Exploratory Data Analysis (EDA)**: Initial data exploration, feature engineering, and cleaning to prepare the dataset for modeling.
+2. **Clustering & Segmentation**: Implementation of the K-Means clustering algorithm and selection of an optimal number of clusters using multiple metrics.
+3. **Stability Analysis**: Analysis of model stability over time to recommend a frequency for re-segmentation.
 
-## Conclusion
+## 🔬 **Methodology**
 
-The RFM-based segmentation model is particularly effective for categorizing customers by recency and satisfaction, with limited differentiation in spending patterns. The model is recommended for ongoing use with monthly updates to maintain segmentation quality.
+1. **Data Preparation**
+   - Load data and clean any inconsistencies or missing values.
+   - Perform feature engineering on critical variables (`recency`, `frequency`, `monetary`).
+
+2. **Modeling**
+   - **K-Means Clustering**: Apply K-Means to create clusters based on customer behavior.
+   - **Cluster Analysis**: Evaluate clusters to identify key customer segments based on characteristics like total spend, last order date, and satisfaction.
+
+3. **Stability Analysis**
+   - Measure the model’s stability over time using the Adjusted Rand Index (ARI) to determine when the segmentation should be refreshed.
+
+## ✅ **Results**
+
+### Identified Segments
+The clustering process identified four primary customer segments:
+
+- **Label 0**: Satisfied but inactive customers, showing low engagement despite good satisfaction scores.
+- **Label 1**: Highly engaged and satisfied customers, who interact with the platform frequently.
+- **Label 2**: Regular but moderately engaged customers, generally content but less active.
+- **Label 3**: Least satisfied customers, typically with lower review scores and infrequent purchases.
+
+### Stability Analysis
+- **Model Maintenance**: Based on ARI scores, we recommend re-segmentation every 30 days to ensure accurate and actionable segmentation results.
+
+## 🚀 **Potential Improvements**
+
+- **Refinement of Features**: Further exploration of behavioral or demographic features could refine segmentation.
+- **Model Optimization**: Consider other clustering methods (e.g., hierarchical clustering) to see if they yield more stable or interpretable segments.
+
+## 📫 **Contact**
+
+**Alexis Marceau**  
+📧 [alexis.marceau.12@gmail.com](mailto:alexis.marceau.12@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/alexis-marceau/?locale=en_US)
