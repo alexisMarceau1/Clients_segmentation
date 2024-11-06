@@ -46,6 +46,8 @@ The clustering process identified four primary customer segments:
 - **Label 1**: Highly engaged and satisfied customers, who interact with the platform frequently.
 - **Label 2**: Regular but moderately engaged customers, generally content but less active.
 - **Label 3**: Least satisfied customers, typically with lower review scores and infrequent purchases.
+  
+> **Note on Spending Patterns**: Interestingly, total spending did not significantly vary across clusters. This could be due to the short data collection period, where most customers have only made one or two purchases, limiting variability in spending. Additionally, other behavioral aspects (like frequency and satisfaction) seem to be stronger differentiators for segmentation in this context.
 
 ### Stability Analysis
 
