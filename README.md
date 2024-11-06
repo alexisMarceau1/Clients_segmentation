@@ -28,7 +28,7 @@ This project is organized into several main steps:
 
 1. **Data Preparation**
    - Load data and clean any inconsistencies or missing values.
-   - Perform feature engineering on critical variables (`recency`, `frequency`, `monetary`).
+   - Perform feature engineering 
 
 2. **Modeling**
    - **K-Means Clustering**: Apply K-Means to create clusters based on customer behavior.
