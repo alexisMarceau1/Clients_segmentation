@@ -44,8 +44,8 @@ The clustering process identified four primary customer segments:
 
 - **Label 0 (bleue)**: Satisfied but inactive customers, showing low engagement despite good satisfaction scores.
 - **Label 1 (orange)**: Highly engaged and satisfied customers, who interact with the platform frequently.
-- **Label 2**: Regular but moderately engaged customers, generally content but less active.
-- **Label 3**: Least satisfied customers, typically with lower review scores and infrequent purchases.
+- **Label 2 (green)**: Regular but moderately engaged customers, generally content but less active.
+- **Label 3 (red)**: Least satisfied customers, typically with lower review scores and infrequent purchases.
 
   ![Segmentations](images/segs.png)
   
