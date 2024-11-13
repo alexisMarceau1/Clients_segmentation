@@ -67,4 +67,4 @@ The clustering process identified four primary customer segments:
 
 **Alexis Marceau**  
 📧 [alexis.marceau.12@gmail.com](mailto:alexis.marceau.12@gmail.com)  
-🔗 [LinkedIn](www.linkedin.com/in/alexis-marceau)
+🔗 [LinkedIn]([www.linkedin.com/in/alexis-marceau](https://www.linkedin.com/in/alexis-marceau/)
