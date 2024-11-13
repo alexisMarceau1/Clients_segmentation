@@ -1,4 +1,4 @@
-# 🛍️ Customer Segmentation for E-commerce
+# 🛍️ CustomerInsights
 
 ![E-commerce](images/ecommerce.jpg) <!-- Placeholder image for context -->
 
